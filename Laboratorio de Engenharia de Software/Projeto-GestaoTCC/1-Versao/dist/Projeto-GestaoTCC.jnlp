@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Projeto-GestaoTCC.jnlp">
+  <information>
+    <title>Projeto-GestaoTCC</title>
+    <vendor>Marco-PC</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Projeto-GestaoTCC.jar" size="13299" download="eager" />
+    <jar href="lib\mysql-connector-j-8.3.0.jar" size="2495536" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="view.Main"  name="Projeto-GestaoTCC" />
+  <update check="always"/>
+</jnlp>
